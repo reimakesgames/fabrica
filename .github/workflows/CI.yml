@@ -22,16 +22,3 @@ jobs:
 
       - name: Run
         run: selene src
-
-  Labelling:
-    if: ${{ always() }}
-    needs: Linting
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      pull-requests: write
-
-    steps:
-    - uses: actions/labeler@v4
-      with:
-        repo-token: "${{ secrets.GITHUB_TOKEN }}"
