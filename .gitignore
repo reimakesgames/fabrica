@@ -2,6 +2,10 @@
 /fabrica.rbxl
 /fabrica.rbxlx
 
+# Studio Lock Files
+*.rbxl.lock
+*.rbxlx.lock
+
 # Wally
 Packages/
 
