@@ -1,2 +1,13 @@
+# Place Builds
+/fabrica.rbxl
+/fabrica.rbxlx
+
+# Studio Lock Files
+*.rbxl.lock
+*.rbxlx.lock
+
+# Wally
 Packages/
-wally.lock
+
+# Luau LSP
+/sourcemap.json
